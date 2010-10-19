@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/proxy_settings_label">
+
+ 	<!-- Proxy settings - launches activity -->
+    <PreferenceScreen android:key="proxy_settings"
+                android:title="@string/proxy_settings_label" >
+                    <intent
+                        android:action="android.intent.action.MAIN"
+                        android:targetPackage="com.android.settings"
+                        android:targetClass="com.android.settings.ProxySelector" />
+    </PreferenceScreen>
+</PreferenceScreen>
+    

@@ -1,0 +1,8 @@
+jni/hello-jni.c
+jni/helloneon.c
+libs
+obj
+gen
+bin
+*~
+
